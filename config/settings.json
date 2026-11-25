@@ -1,0 +1,23 @@
+{
+  "module": "free-vpn-unlimited",
+  "version": "0.1.0",
+  "runtime": {
+    "threads": 4,
+    "verbose": false,
+    "hot_reload": true
+  },
+  "modules": {
+    "tunnel": {
+      "enabled": true
+    },
+    "profiles": {
+      "enabled": true
+    },
+    "watchdog": {
+      "enabled": true
+    },
+    "cli": {
+      "enabled": true
+    }
+  }
+}
